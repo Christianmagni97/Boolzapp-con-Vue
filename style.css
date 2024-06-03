@@ -17,13 +17,14 @@ header{
     height: 150px;
     position: absolute;
 }
-/* rimo contatto */ 
+/* primo contatto */ 
 .riquadro-superiore-contatti{
     display: flex;
     height: 10%;
     width: 450px;
     background-color: #eaeaea;
     align-items: center;
+    
 }
 img{
     max-width: 100%;
@@ -42,6 +43,19 @@ i{
     border-radius: 50%;
     margin-left: 20px;
 }
+/* parte destra riquadro */
+.riquadro-superiore-contatti-due{
+    display: flex;
+    height: 10%;
+    width: 745px;
+    background-color: #eaeaea;
+    align-items: center;
+    margin-left: 450px;
+}
+.riquadro-superiore-contatti-due > .icon{
+    margin-left: 80px;
+}
+/* base riquadro */ 
 .base-riquadro{
     background-image: url(mine.jpg);
     width: 1200px;
@@ -56,6 +70,7 @@ i{
     height: calc(78% - 3px);
     width: 450px;
 }
+/* notifiche */
 .notifiche{
     background-color: #8edafc;
     height: 7%;
@@ -89,4 +104,7 @@ i{
     width: 450px;
     background-color: white;
     border: grey solid 1px;
+}
+.title-subtitles-chat{
+    padding-left: 20px;
 }
