@@ -18,11 +18,31 @@ header{
 
 .base-riquadro{
     background-color: #eaeaea;
-    width: 1000px;
+    width: 1200px;
     border: solid white 3px;
     height: 800px;
     position: absolute;
-    margin-left: calc(50% - 500px);
-    margin-top: 30px;
+    margin-left: calc(50% - 600px);
+    margin-top: 30px;   
+}
+.riquadro-parte-contatti{
     
+    background-color: white;
+    height: 78%;
+    width: 450px;
+}
+.riquadro-superiore-contatti{
+    height: 10%;
+    width: 450px;
+    background-color: #eaeaea;
+}
+.notifiche{
+    background-color: #8edafc;
+    height: 7%;
+    width: 450px;
+}
+.ricerca{
+    height: 5%;
+    width: 450px;
+    background-color: black;
 }
